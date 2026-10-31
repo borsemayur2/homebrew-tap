@@ -1,18 +1,32 @@
-# Borsemayur2 Tap
+# Mayur's Homebrew Tap (`borsemayur2/tap`)
 
-## How do I install these formulae?
+Official Homebrew Tap for utilities created by Mayur Borse ([@borsemayur2](https://github.com/borsemayur2)).
 
-`brew install borsemayur2/tap/<formula>`
+## Available Casks
 
-Or `brew tap borsemayur2/tap` and then `brew install <formula>`.
+| Cask | Description | Install Command |
+| :--- | :--- | :--- |
+| **[MacVite](https://macvite.app)** | Lightning-fast Dock app switcher using `Option + 1..9` | `brew install --cask borsemayur2/tap/macvite` |
 
-Or, in a `brew bundle` `Brewfile`:
+## Quick Installation
 
-```ruby
-tap "borsemayur2/tap"
-brew "<formula>"
+Install MacVite in one command:
+```bash
+brew install --cask borsemayur2/tap/macvite
 ```
 
-## Documentation
+Or tap this repository first:
+```bash
+brew tap borsemayur2/tap
+brew install --cask macvite
+```
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+### Early Access / Gatekeeper
+During early access ad-hoc builds, if macOS Gatekeeper prompts for verification:
+```bash
+brew install --cask --no-quarantine borsemayur2/tap/macvite
+```
+
+## Documentation & Links
+- [MacVite Website](https://macvite.app)
+- [Homebrew Tap Documentation](https://docs.brew.sh/Taps)
